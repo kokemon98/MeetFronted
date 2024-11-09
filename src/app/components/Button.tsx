@@ -3,7 +3,7 @@
 export interface ButtonProps {
   text: string;
 }
-export default function Button(props: any) {
+export default function Button(props: ButtonProps) {
     const buttonClicked = () => {
         alert("Clicked")
     }
